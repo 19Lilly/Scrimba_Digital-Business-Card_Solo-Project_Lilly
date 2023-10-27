@@ -695,7 +695,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function FacebookBtn() {
     return _react2.default.createElement(
         "a",
-        { href: "#", className: "footer-link" },
+        { href: "https://www.facebook.com/19Lilly", target: "_blank", className: "footer-link" },
         _react2.default.createElement(
             "svg",
             { className: "svg-icon-footer facebook-icon", width: "25", height: "25", viewBox: "0 0 25 25", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
@@ -725,7 +725,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function GitHubBtn() {
     return _react2.default.createElement(
         "a",
-        { href: "#", className: "footer-link" },
+        { href: "https://github.com/19Lilly", target: "_blank", className: "footer-link" },
         _react2.default.createElement(
             "svg",
             { className: "svg-icon-footer", width: "26", height: "26", viewBox: "0 0 26 26", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
@@ -788,8 +788,9 @@ function LinkedInBtn() {
     var _React$createElement;
 
     return _react2.default.createElement(
-        "button",
-        { className: "btn linkedIn-btn" },
+        "a",
+        { href: "https://www.linkedin.com/in/rozvita-%C5%A1tiglinc/", target: "_blank",
+            className: "btn linkedIn-btn" },
         _react2.default.createElement(
             "svg",
             (_React$createElement = { className: "btn-icon linkedIn-icon", xmlns: "http://www.w3.org/2000/svg" }, _defineProperty(_React$createElement, "className", "icon icon-tabler icon-tabler-brand-linkedin"), _defineProperty(_React$createElement, "width", "24"), _defineProperty(_React$createElement, "height", "24"), _defineProperty(_React$createElement, "viewBox", "0 0 24 24"), _defineProperty(_React$createElement, "strokeWidth", "2"), _defineProperty(_React$createElement, "stroke", "currentColor"), _defineProperty(_React$createElement, "fill", "none"), _defineProperty(_React$createElement, "strokeLinecap", "round"), _defineProperty(_React$createElement, "strokeLinejoin", "round"), _React$createElement),
@@ -824,8 +825,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function MailBtn() {
     return _react2.default.createElement(
-        "button",
-        { className: "btn mail-btn" },
+        "a",
+        { href: "mailto:r.stiglinc@gmail.com", target: "_blank", className: "btn mail-btn" },
         _react2.default.createElement(
             "svg",
             { className: "btn-icon mail-icon", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
